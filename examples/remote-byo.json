@@ -1,0 +1,18 @@
+{
+  "id": "example-remote",
+  "handle": "example-remote",
+  "name": "Example remote server",
+  "description": "Shows the bring-your-own shape. Copy this into servers/ and replace the host before publishing.",
+  "requires_oauth": true,
+  "oauth_mode": "byo",
+  "transport_type": "http",
+  "mcp_host": "https://mcp.example.com/mcp",
+  "official": false,
+  "tags": ["example"],
+  "meta": {
+    "available_scopes": [
+      {"scope": "read", "label": "Read", "required": true, "default": true}
+    ],
+    "setup_guide_url": "https://example.com/setup"
+  }
+}

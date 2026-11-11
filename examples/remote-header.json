@@ -1,0 +1,21 @@
+{
+  "id": "example-header",
+  "handle": "example-header",
+  "name": "Example header server",
+  "description": "Shows an HTTP server that asks for a header instead of OAuth. Copy this into servers/ and replace the host before publishing.",
+  "requires_oauth": false,
+  "transport_type": "http",
+  "mcp_host": "https://mcp.example.com/mcp",
+  "official": false,
+  "tags": ["example"],
+  "meta": {
+    "headers": {
+      "Authorization": {
+        "label": "API key",
+        "description": "The person installs this with their own key.",
+        "type": "secret",
+        "required": true
+      }
+    }
+  }
+}
