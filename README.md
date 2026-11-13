@@ -41,4 +41,4 @@ Pages ignores `page`, `size`, and `q` and returns the same files every time. The
 | `/api/marketplace/servers/<id>` | that entry |
 | `/api/version_check` | this version is supported and no update is required |
 
-The installation id sent with those requests is ignored. These files do not read it.
+These files do not read headers. The OpenMaskit fork does not send an installation id or an OpenMaskit version when it fetches them.
